@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 18.875rem;
+  height: 26.5rem;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1.25rem;
+}
+
+.bg-pets {
+  background-image: url("../../../../public/banners/banner-categorias-pets.png");
+}
+
+.bg-familia {
+  background-image: url("../../../../public/banners/banner-categorias-familia.png");
+}
+
+.bg-mobiliado {
+  background-image: url("../../../../public/banners/banner-categorias-mobiliado.png");
+}
+
+.bg-lugar10 {
+  background-image: url("../../../../public/banners/banner-categorias-lugar10.png");
+}
+
+.titulo {
+}
+
+.descricao {
+}

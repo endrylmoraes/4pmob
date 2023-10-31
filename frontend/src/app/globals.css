@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 *{
   margin: 0;
@@ -13,9 +13,14 @@
   --white: #FFF;
   --black: #000;
 
+  /*4PMOB*/
   --dark: #1D1D1B;
   --gray: #D9D9D9;
   --green: #C7D300;
+
+  /*ACIMA*/
+  --red-700: #D34D6D;
+  --red-900: #C81E47;
 }
 
 button{
@@ -27,9 +32,9 @@ a{
   text-decoration: none;
 }
 
-body{
+/* body{
   
-}
+} */
 
 body, input, textarea, select, button{
   font: 400 1rem sans-serif;

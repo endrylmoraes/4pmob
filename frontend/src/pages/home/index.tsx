@@ -1,3 +1,5 @@
+import Banners from "@/components/Banners";
+
 export default function Home() {
-  return <div>hello</div>;
+  return <Banners />;
 }
