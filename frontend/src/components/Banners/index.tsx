@@ -1,4 +1,5 @@
-import { BannerCategorias } from "./BannerCategorias";
+import React from 'react';
+import { BannerCategorias } from './BannerCategorias';
 
 export default function Banners() {
   return (

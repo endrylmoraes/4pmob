@@ -1,4 +1,5 @@
-import styles from "./styles.module.scss";
+import React from 'react';
+import styles from './styles.module.scss';
 
 interface Props {
   categoria: string;
@@ -6,11 +7,7 @@ interface Props {
   descricao: string;
 }
 
-export const BannerCategorias = ({
-  categoria,
-  titulo,
-  descricao,
-}: Props): JSX.Element => {
+export function BannerCategorias({ categoria, titulo, descricao }: Props) {
   return (
     <div className={`${styles.container} ${styles[`bg-${categoria}`]}`}>
       <div>
@@ -19,4 +16,4 @@ export const BannerCategorias = ({
       </div>
     </div>
   );
-};
+}
